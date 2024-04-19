@@ -1,0 +1,17 @@
+.companies {
+  width: 100%;
+    background: linear-gradient(to right, #ffffff, #eeeeff);
+
+}
+.c-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5rem;
+}
+.c-container > img {
+width: auto; 
+margin: 0 20px; 
+height: 70px; 
+vertical-align: middle;
+}

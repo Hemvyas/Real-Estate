@@ -1,0 +1,73 @@
+.hero{
+    color: #fff;
+    position: relative;
+    padding-bottom: 2rem;
+    background: linear-gradient(to bottom, #1f3e72, #5a7fab);
+}
+.m-container{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+.img{
+    width: 30rem;
+    height: 35rem;
+    overflow: hidden;
+    border-radius: 15rem 15rem 0 0;
+    border: 6px solid rgba(255, 255, 255, 0.1);
+    object-fit: cover;
+}
+.img>img{
+    width: 100%;
+    height: 100%;
+}
+.hero-left{
+    gap: 3rem;
+}
+.title h1{
+    font-weight: 600;
+    font-size: 3.8rem;
+    line-height: 4rem;
+}
+.search{
+    background-color: #fff;
+    border-radius: 5px;
+    border: 4px solid rgba(120,120,120 ,0.37 );
+    padding: 0.5rem 0.5rem;
+    width: 100%;
+    justify-content: space-between;
+}
+.search>input{
+    border: none;
+    outline: none;
+    padding: 0.3rem;
+}
+.counts{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.count>:nth-child(1){
+    font-size: 2rem;
+}
+.count>:nth-child(1)>:last-child{
+    color: orange;
+}
+
+@media (max-width:640px){
+ .title{
+    font-size: 2.5rem;
+    line-height: 3rem;
+ }
+ .img{
+    width: 95%;
+    height: 25rem;
+ } 
+ .counts{
+    justify-content: center;
+    gap: 2rem;
+ }  
+}

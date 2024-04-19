@@ -1,0 +1,68 @@
+.co-container{
+    justify-content: space-between;
+}
+.co-container>div{
+    flex: 1;
+}
+.co-right{
+    width: 100%;
+}
+.co-left{
+    gap: 0.5rem;
+}
+.contacts{
+   margin-top: 2rem;
+   gap: 1rem; 
+}
+.row{
+    gap:1.5rem;
+}
+.info{
+    width: 16rem;
+    padding: 1rem;
+    border: 0.8px solid rgba(128, 128, 128, 0.143);
+    border-radius: 5px;
+    gap: 1rem;
+    transition: all 300ms ease-in;
+    width: 100%;
+}
+.info .btn{
+    width: 100%;
+    background: var(--lightBlue);
+    color: var(--blue);
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+.info>:nth-child(1)
+{
+    width: 100%;
+    gap: 1.6rem;
+}
+.info .detail .primaryText{
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.info:hover{
+    scale: 1.1;
+    box-shadow: var(--shadow);
+}
+.info .btn:hover{
+    background: var(--blue-gradient);
+    color: white;
+    scale: 0.8;
+}
+@media (max-width:1024px){
+    .co-container{
+        flex-direction: column;
+    }
+    .co-right{
+        justify-content: center;
+    }
+    .row{
+        flex-direction: column;
+        width: 100%;
+    }
+    .info{
+        width: 100%;
+    }
+}

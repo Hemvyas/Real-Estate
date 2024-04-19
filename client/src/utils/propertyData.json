@@ -1,0 +1,925 @@
+ [
+  {
+    "address": "02561 Tony Trail",
+    "city": "Waterbury",
+    "state": "Connecticut",
+    "price": 967582.29,
+    "facilities":{
+      "bedrooms": 3,
+      "bathrooms": 5,
+      "gym":1
+    },
+    "squareFeet": 2203,
+    "yaerBuilt": 2000,
+    "type": "townhouse",
+    "name": "Pinecrest Place",
+    "image": "https://www.investopedia.com/thmb/XPnvXjFTJnA8j8VBEtNc7DfduN4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/INV_Real_Property_GettyImages-200478960-001-080ea7835ec1444881eddbe3b2a5a632.jpg",
+    "country": "United States",
+    "desc": "Luxurious penthouse with city skyline",
+    "userEmail":"hats1469@gmail.com"
+  },
+  {
+    "address": "5 Homewood Pass",
+    "city": "Washington",
+    "state": "District of Columbia",
+    "price": 107540.73,
+    "facilities": {
+      "bedrooms": 3,
+      "bathrooms": 4,
+      "parking": 2
+    },
+    "squareFeet": 3312,
+    "yaerBuilt": 1995,
+    "type": "townhouse",
+    "name": "Maple Manor",
+    "image": "https://media.istockphoto.com/id/1319269543/photo/new-homes-on-a-quiet-street-in-raleigh-nc.jpg?s=612x612&w=0&k=20&c=qaRMP-xgYqFAXR9aTpiG0dtkyqPhJiTAovvxyG1AxvM=",
+    "country": "United States",
+    "desc": "Cozy studio apartment in downtown",
+    "userEmail": "hats1469@gmail.com"
+  },
+  {
+    "address": "0562 Fairfield Terrace",
+    "city": "New York City",
+    "state": "New York",
+    "price": 744725.41,
+    "facilities": {
+      "bedrooms": 8,
+      "bathrooms": 2,
+      "clubHouse": 2
+    },
+    "squareFeet": 9843,
+    "yaerBuilt": 1919,
+    "type": "house",
+    "name": "Pinecrest Place",
+    "image": "data:image/jpeg;base64,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",
+    "country": "United States",
+    "desc": "Modern 2-story townhouse with a view",
+    "userEmail": "hats1469@gmail.com"
+  },
+  {
+    "address": "323 Sunnyside Park",
+    "city": "Washington",
+    "state": "District of Columbia",
+    "price": 582025.89,
+    "facilities": {
+      "bedrooms": 3,
+      "bathrooms": 7
+    },
+    "squareFeet": 6018,
+    "yaerBuilt": 2022,
+    "type": "townhouse",
+    "name": "Oakwood Estate",
+    "image": "https://cdn.britannica.com/05/157305-004-53D5D212.jpg",
+    "country": "United States",
+    "desc": "Spacious 3-bedroom house with a backyard",
+    "userEmail": "hats1469@gmail.com"
+  },
+  {
+    "address": "176 Mayfield Court",
+    "city": "Myrtle Beach",
+    "state": "South Carolina",
+    "price": 302395.18,
+    "facilities": {
+      "bedrooms": 10,
+      "bathrooms": 4,
+      "swimming": 2
+    },
+    "squareFeet": 833,
+    "yaerBuilt": 1990,
+    "type": "duplex",
+    "name": "Maple Manor",
+    "image": "https://cdn.britannica.com/05/157305-004-53D5D212.jpg",
+    "country": "United States",
+    "desc": "Luxurious penthouse with city skyline",
+    "userEmail": "hats1469@gmail.com"
+  },
+  {
+    "address": "14481 Summerview Point",
+    "city": "North Las Vegas",
+    "state": "Nevada",
+    "price": 898851.55,
+    "facilities": {
+      "bedrooms": 5,
+      "bathrooms": 4
+    },
+    "squareFeet": 2028,
+    "yaerBuilt": 1958,
+    "type": "house",
+    "name": "Maple Manor",
+    "image": "https://cdn.britannica.com/05/157305-004-53D5D212.jpg",
+    "country": "United States",
+    "desc": "Spacious 3-bedroom house with a backyard",
+    "userEmail":"ram@gmail.com"
+  },
+  {
+    "address": "247 Carioca Center",
+    "city": "Reading",
+    "state": "Pennsylvania",
+    "price": 883896.52,
+    "facilities": {
+      "bedrooms": 5,
+      "bathrooms": 2,
+      "sauna": 2
+    },
+    "squareFeet": 3075,
+    "yaerBuilt": 2004,
+    "type": "condo",
+    "name": "Maple Manor",
+    "image": "https://cdn.britannica.com/05/157305-004-53D5D212.jpg",
+    "country": "United States",
+    "desc": "Spacious 3-bedroom house with a backyard",
+    "userEmail": "ram@gmail.com"
+  },
+  {
+    "address": "7 Mitchell Way",
+    "city": "Providence",
+    "state": "Rhode Island",
+    "price": 973734.81,
+    "facilities": {
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "tennis": 1
+    },
+    "squareFeet": 9662,
+    "yaerBuilt": 1998,
+    "type": "apartment",
+    "name": "Oakwood Estate",
+    "image": "https://www.investopedia.com/thmb/bfHtdFUQrl7jJ_z-utfh8w1TMNA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/houses_and_land-5bfc3326c9e77c0051812eb3.jpg",
+    "country": "United States",
+    "desc": "Modern 2-story townhouse with a view",
+    "userEmail": "ram@gmail.com"
+  },
+  {
+    "address": "09742 Summer Ridge Street",
+    "city": "Muncie",
+    "state": "Indiana",
+    "price": 329640.57,
+    "facilities": {
+      "bedrooms": 7,
+      "bathrooms": 1
+    },
+    "squareFeet": 9891,
+    "yaerBuilt": 1940,
+    "type": "townhouse",
+    "name": "Cedar Ridge",
+    "image": "https://img.freepik.com/free-photo/luxury-pool-villa-spectacular-contemporary-design-digital-art-real-estate-home-house-property-ge_1258-150765.jpg",
+    "country": "United States",
+    "desc": "Modern 2-story townhouse with a view",
+    "userEmail": "ram@gmail.com"
+  },
+  {
+    "address": "363 Crescent Oaks Avenue",
+    "city": "Spring",
+    "state": "Texas",
+    "price": 158745.75,
+    "facilities": {
+      "bedrooms": 1,
+      "bathrooms": 1
+    },
+    "squareFeet": 5883,
+    "yaerBuilt": 1932,
+    "type": "apartment",
+    "name": "Pinecrest Place",
+    "image": "https://www.bankrate.com/2019/08/27171217/5-tips-for-financing-for-investment-property.jpeg?auto=webp&optimize=high",
+    "country": "United States",
+    "desc": "Cozy studio apartment in downtown",
+    "userEmail": "ram@gmail.com"
+  },
+  {
+    "address": "3254 Golf Course Parkway",
+    "city": "Tampa",
+    "state": "Florida",
+    "price": 983256.14,
+    "facilities": {
+      "bedrooms": 4,
+      "bathrooms": 4    
+    },
+    "squareFeet": 8790,
+    "yaerBuilt": 1903,
+    "type": "townhouse",
+    "name": "Cedar Ridge",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjWeZXa2JRpp2xg4Yg9vBzPNPVPY3Et3d15Q&usqp=CAU",
+    "country": "United States",
+    "desc": "Modern 2-story townhouse with a view",
+    "userEmail": "ram@gmail.com"
+  },
+  {
+    "address": "37193 Forest Run Trail",
+    "city": "Everett",
+    "state": "Washington",
+    "price": 164531.23,
+    "facilities": {
+      "bedrooms": 3,
+      "bathrooms": 2
+    },
+    "squareFeet": 8702,
+    "yaerBuilt": 1947,
+    "type": "condo",
+    "name": "Cedar Ridge",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjWeZXa2JRpp2xg4Yg9vBzPNPVPY3Et3d15Q&usqp=CAU",
+    "country": "United States",
+    "desc": "Modern 2-story townhouse with a view",
+    "userEmail": "ram@gmail.com"
+  },
+  {
+    "address": "1127 Service Park",
+    "city": "Atlanta",
+    "state": "Georgia",
+    "price": 398715.44,
+    "facilities": {
+      "bedrooms": 9,
+      "bathrooms": 4
+    },
+    "squareFeet": 4908,
+    "yaerBuilt": 2000,
+    "type": "house",
+    "name": "Maple Manor",
+    "image": "ahttps://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjWeZXa2JRpp2xg4Yg9vBzPNPVPY3Et3d15Q&usqp=CAU",
+    "country": "United States",
+    "desc": "Modern 2-story townhouse with a view",
+    "userEmail": "ram@gmail.com"
+  },
+  {
+    "address": "305 Everett Trail",
+    "city": "Pasadena",
+    "state": "Texas",
+    "price": 452311.16,
+    "facilities": {
+      "bedrooms": 10,
+      "bathrooms": 4
+    },
+    "squareFeet": 3458,
+    "yaerBuilt": 1986,
+    "type": "apartment",
+    "name": "Willow Grove",
+    "image": "https://i0.wp.com/lawpadi.com/wp-content/uploads/2017/06/house-2414374_640.jpg?fit=640%2C424&ssl=1",
+    "country": "United States",
+    "desc": "Spacious 3-bedroom house with a backyard",
+    "userEmail": "hari@gmail.com"
+  },
+  {
+    "address": "48 Iowa Parkway",
+    "city": "Erie",
+    "state": "Pennsylvania",
+    "price": 324526.88,
+    "facilities": {
+      "bedrooms": 3,
+      "bathrooms": 1
+    },
+    "squareFeet": 9992,
+    "yaerBuilt": 1901,
+    "type": "house",
+    "name": "Pinecrest Place",
+    "image": "https://i0.wp.com/lawpadi.com/wp-content/uploads/2017/06/house-2414374_640.jpg?fit=640%2C424&ssl=1",
+    "country": "United States",
+    "desc": "Luxurious penthouse with city skyline",
+    "userEmail": "hari@gmail.com"
+  },
+  {
+    "address": "0 Dayton Drive",
+    "city": "Richmond",
+    "state": "Virginia",
+    "price": 561833.05,
+    "facilities": {
+      "bedrooms": 7,
+      "bathrooms": 4,
+      "clubHouse": 2
+    },
+    "squareFeet": 5597,
+    "yaerBuilt": 1910,
+    "type": "condo",
+    "name": "Pinecrest Place",
+    "image": "https://i0.wp.com/lawpadi.com/wp-content/uploads/2017/06/house-2414374_640.jpg?fit=640%2C424&ssl=1",
+    "country": "United States",
+    "desc": "Modern 2-story townhouse with a view",
+    "userEmail": "hari@gmail.com"
+  },
+  {
+    "address": "77 Magdeline Avenue",
+    "city": "Panama City",
+    "state": "Florida",
+    "price": 113964.44,
+    "facilities": {
+      "bedrooms": 8,
+      "bathrooms": 3
+    },
+    "squareFeet": 8466,
+    "yaerBuilt": 1935,
+    "type": "townhouse",
+    "name": "Oakwood Estate",
+    "image": "https://www.loans.com.au/dA/9de8aa8d51/what-factors-affect-property-value.png",
+    "country": "United States",
+    "desc": "Luxurious penthouse with city skyline",
+    "userEmail": "hari@gmail.com"
+  },
+  {
+    "address": "076 Browning Place",
+    "city": "Beaufort",
+    "state": "South Carolina",
+    "price": 565443.41,
+    "facilities": {
+      "bedrooms": 4,
+      "bathrooms": 2
+    },
+    "squareFeet": 4976,
+    "yaerBuilt": 1989,
+    "type": "duplex",
+    "name": "Oakwood Estate",
+    "image": "https://www.loans.com.au/dA/9de8aa8d51/what-factors-affect-property-value.png",
+    "country": "United States",
+    "desc": "Charming bungalow near the beach",
+    "userEmail": "hari@gmail.com"
+  },
+  {
+    "address": "11010 School Plaza",
+    "city": "Northridge",
+    "state": "California",
+    "price": 442518.1,
+    "facilities": {
+      "bedrooms": 10,
+      "bathrooms": 5
+    },
+    "squareFeet": 5085,
+    "yaerBuilt": 2019,
+    "type": "townhouse",
+    "name": "Willow Grove",
+    "image": "https://www.loans.com.au/dA/9de8aa8d51/what-factors-affect-property-value.png",
+    "country": "United States",
+    "desc": "Cozy studio apartment in downtown",
+    "userEmail": "hari@gmail.com"
+  },
+  {
+    "address": "21 Comanche Street",
+    "city": "Lubbock",
+    "state": "Texas",
+    "price": 390777.97,
+    "facilities": {
+      "bedrooms": 9,
+      "bathrooms": 2
+    },
+    "squareFeet": 4364,
+    "yaerBuilt": 1915,
+    "type": "townhouse",
+    "name": "Maple Manor",
+    "image": "https://www.realestate.com.au/news-image/w_1280,h_720/v1685591583/news-lifestyle-content-assets/wp-content/production/capi_37c8ee2aed723fb75d2760ed7e8090cc_7be7d018dffcbe63b1e6212983e12f6c.jpeg?_i=AA",
+    "country": "United States",
+    "desc": "Cozy studio apartment in downtown",
+    "userEmail": "hari@gmail.com"
+  },
+  {
+    "address": "9 Bunker Hill Trail",
+    "city": "New York City",
+    "state": "New York",
+    "price": 180485.57,
+    "facilities": {
+      "bedrooms": 4,
+      "bathrooms": 4,
+      "gym":2
+    },
+    "squareFeet": 8257,
+    "yaerBuilt": 2019,
+    "type": "condo",
+    "name": "Oakwood Estate",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8Gev3XP3a8LQP0KGwnvklZ5GQ9dpfb-X4ouduVEh71ouj7V19kgJM3H53QSPmqhadQS8&usqp=CAU",
+    "country": "United States",
+    "desc": "Spacious 3-bedroom house with a backyard",
+    "userEmail":"krishna@gmail.com"
+  },
+  {
+    "address": "2 Shoshone Lane",
+    "city": "Hicksville",
+    "state": "New York",
+    "price": 407911.7,
+    "facilities": {
+      "bedrooms": 8,
+      "bathrooms": 4,
+      "parking": 1
+    },
+    "squareFeet": 671,
+    "yaerBuilt": 1904,
+    "type": "apartment",
+    "name": "Pinecrest Place",
+    "image": "https://images.moneycontrol.com/static-mcnews/2018/06/Property-sale.jpg?impolicy=website&width=1600&height=900",
+    "country": "United States",
+    "desc": "Charming bungalow near the beach",
+    "userEmail": "krishna@gmail.com"
+  },
+  {
+    "address": "82775 Elgar Lane",
+    "city": "Montgomery",
+    "state": "Alabama",
+    "price": 233376.92,
+    "facilities": {
+      "bedrooms": 3,
+      "bathrooms": 4
+    },
+    "squareFeet": 2029,
+    "yaerBuilt": 1997,
+    "type": "house",
+    "name": "Willow Grove",
+    "image": "https://images.moneycontrol.com/static-mcnews/2018/06/Property-sale.jpg?impolicy=website&width=1600&height=900",
+    "country": "United States",
+    "desc": "Modern 2-story townhouse with a view",
+    "userEmail": "krishna@gmail.com"
+  },
+  {
+    "address": "413 Summerview Hill",
+    "city": "San Bernardino",
+    "state": "California",
+    "price": 478539.69,
+    "facilities": {
+      "bedrooms": 5,
+      "bathrooms": 4,
+      "sauna": 1
+    },
+    "squareFeet": 8846,
+    "yaerBuilt": 1970,
+    "type": "house",
+    "name": "Maple Manor",
+    "image": "https://images.moneycontrol.com/static-mcnews/2018/06/Property-sale.jpg?impolicy=website&width=1600&height=900",
+    "country": "United States",
+    "desc": "Luxurious penthouse with city skyline",
+    "userEmail": "krishna@gmail.com"
+  },
+  {
+    "address": "3 Service Park",
+    "city": "Charlotte",
+    "state": "North Carolina",
+    "price": 13441.35,
+    "facilities": {
+      "bedrooms": 2,
+      "bathrooms": 4,
+      "swimming": 2
+    },
+    "squareFeet": 3741,
+    "yaerBuilt": 1918,
+    "type": "condo",
+    "name": "Maple Manor",
+    "image": "https://cdn.pixabay.com/photo/2017/04/10/22/28/residence-2219972_640.jpg",
+    "country": "United States",
+    "desc": "Modern 2-story townhouse with a view",
+    "userEmail": "krishna@gmail.com"
+  },
+  {
+    "address": "0014 Golf Course Drive",
+    "city": "New Haven",
+    "state": "Connecticut",
+    "price": 561958.51,
+    "facilities": {
+      "bedrooms": 10,
+      "bathrooms": 4,
+      "tennis": 2
+    },
+    "squareFeet": 9125,
+    "yaerBuilt": 1985,
+    "type": "apartment",
+    "name": "Cedar Ridge",
+    "image": "https://cdn.pixabay.com/photo/2017/04/10/22/28/residence-2219972_640.jpg",
+    "country": "United States",
+    "desc": "Modern 2-story townhouse with a view",
+    "userEmail": "krishna@gmail.com"
+  },
+  {
+    "address": "97 Cottonwood Terrace",
+    "city": "Detroit",
+    "state": "Michigan",
+    "price": 975909.63,
+    "facilities": {
+      "bedrooms": 8,
+      "bathrooms": 4,
+      "clubHouse": 2
+    },
+    "squareFeet": 3579,
+    "yaerBuilt": 1914,
+    "type": "duplex",
+    "name": "Pinecrest Place",
+    "image": "https://cdn.pixabay.com/photo/2017/04/10/22/28/residence-2219972_640.jpg",
+    "country": "United States",
+    "desc": "Luxurious penthouse with city skyline",
+    "userEmail": "krishna@gmail.com"
+  },
+  {
+    "address": "01 Huxley Pass",
+    "city": "Miami Beach",
+    "state": "Florida",
+    "price": 271634.45,
+    "facilities": {
+      "bedrooms": 7,
+      "bathrooms": 1,
+      "sauna": 2
+    },
+    "squareFeet": 2121,
+    "yaerBuilt": 2001,
+    "type": "condo",
+    "name": "Oakwood Estate",
+    "image": "https://d3qnldyv492i08.cloudfront.net/ashapurna/images/footer_extra_link/58ea2590-03bf-48b4-9c5e-c901632fe74a-1669895079.jpg",
+    "country": "United States",
+    "desc": "Cozy studio apartment in downtown",
+    "userEmail": "krishna@gmail.com"
+  },
+  {
+    "address": "043 Corry Trail",
+    "city": "Austin",
+    "state": "Texas",
+    "price": 482801.27,
+    "facilities": {
+      "bedrooms": 5,
+      "bathrooms": 1,
+      "clubHouse": 3
+    },
+    "squareFeet": 2259,
+    "yaerBuilt": 1903,
+    "type": "townhouse",
+    "name": "Maple Manor",
+    "image": "https://d3qnldyv492i08.cloudfront.net/ashapurna/images/footer_extra_link/58ea2590-03bf-48b4-9c5e-c901632fe74a-1669895079.jpg",
+    "country": "United States",
+    "desc": "Spacious 3-bedroom house with a backyard",
+    "userEmail": "krishna@gmail.com"
+  },
+  {
+    "address": "0 Sheridan Court",
+    "city": "Greenville",
+    "state": "South Carolina",
+    "price": 660227.33,
+    "facilities": {
+      "bedrooms": 1,
+      "bathrooms": 4
+    },
+    "squareFeet": 9810,
+    "yaerBuilt": 2018,
+    "type": "townhouse",
+    "name": "Pinecrest Place",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTx25mlnSrDu2TI4DnZ7zl6FpxwVaTYoSGHZg&usqp=CAU",
+    "country": "United States",
+    "desc": "Luxurious penthouse with city skyline",
+    "userEmail": "krishna@gmail.com"
+  },
+  {
+    "address": "6 Carberry Pass",
+    "city": "Madison",
+    "state": "Wisconsin",
+    "price": 741945.21,
+    "facilities": {
+      "bedrooms": 9,
+      "bathrooms":1,
+      "parking":3
+    },
+    "squareFeet": 1125,
+    "yaerBuilt": 1949,
+    "type": "townhouse",
+    "name": "Maple Manor",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTx25mlnSrDu2TI4DnZ7zl6FpxwVaTYoSGHZg&usqp=CAU",
+    "country": "United States",
+    "desc": "Charming bungalow near the beach",
+    "userEmail":"shiv@gmail.com"
+  },
+  {
+    "address": "74 Marquette Trail",
+    "city": "Spartanburg",
+    "state": "South Carolina",
+    "price": 902221.1,
+    "facilities": {
+      "bedrooms": 1,
+      "bathrooms": 4
+    },
+    "squareFeet": 6335,
+    "yaerBuilt": 2021,
+    "type": "house",
+    "name": "Maple Manor",
+    "image": "https://decorandoasala.com/wp-content/uploads/2021/04/5d7f08cbbf209b02d29e8ef07d89d478w-c150128xd-w640_h480_q80.jpg",
+    "country": "United States",
+    "desc": "Luxurious penthouse with city skyline",
+    "userEmail": "shiv@gmail.com"
+  },
+  {
+    "address": "9 Miller Center",
+    "city": "Oklahoma City",
+    "state": "Oklahoma",
+    "price": 212243.99,
+    "facilities": {
+      "bedrooms": 3,
+      "bathrooms": 5
+    },
+    "squareFeet": 1710,
+    "yaerBuilt": 1979,
+    "type": "duplex",
+    "name": "Pinecrest Place",
+    "image": "https://image-cdn.carrot.com/uploads/sites/11901/2020/06/distressed-properties-in-memphis.jpg",
+    "country": "United States",
+    "desc": "Spacious 3-bedroom house with a backyard",
+    "userEmail": "shiv@gmail.com"
+  },
+  {
+    "address": "045 Crescent Oaks Crossing",
+    "city": "Memphis",
+    "state": "Tennessee",
+    "price": 434287.69,
+    "facilities": {
+      "bedrooms": 3,
+      "bathrooms": 5
+    },
+    "squareFeet": 2658,
+    "yaerBuilt": 1907,
+    "type": "house",
+    "name": "Willow Grove",
+    "image": "https://image-cdn.carrot.com/uploads/sites/11901/2020/06/distressed-properties-in-memphis.jpg",
+    "country": "United States",
+    "desc": "Spacious 3-bedroom house with a backyard",
+    "userEmail": "shiv@gmail.com"
+  },
+  {
+    "address": "27350 Forest Street",
+    "city": "Arlington",
+    "state": "Virginia",
+    "price": 627778.37,
+    "facilities": {
+      "bedrooms": 10,
+      "bathrooms": 4,
+      "swimming": 2
+    },
+    "squareFeet": 6028,
+    "yaerBuilt": 1926,
+    "type": "duplex",
+    "name": "Oakwood Estate",
+    "image": "https://image-cdn.carrot.com/uploads/sites/11901/2020/06/distressed-properties-in-memphis.jpg",
+    "country": "United States",
+    "desc": "Charming bungalow near the beach",
+    "userEmail": "shiv@gmail.com"
+  },
+  {
+    "address": "6559 Northfield Circle",
+    "city": "Salt Lake City",
+    "state": "Utah",
+    "price": 750155.28,
+    "facilities": {
+      "bedrooms": 8,
+      "bathrooms": 4
+    },
+    "squareFeet": 8628,
+    "yaerBuilt": 1956,
+    "type": "condo",
+    "name": "Willow Grove",
+    "image": "https://image-cdn.carrot.com/uploads/sites/11901/2020/06/distressed-properties-in-memphis.jpg",
+    "country": "United States",
+    "desc": "Modern 2-story townhouse with a view",
+    "userEmail": "shiv@gmail.com"
+  },
+  {
+    "address": "248 Donald Trail",
+    "city": "New Haven",
+    "state": "Connecticut",
+    "price": 226871.35,
+    "facilities": {
+      "bedrooms": 6,
+      "bathrooms": 5
+    },
+    "squareFeet": 6589,
+    "yaerBuilt": 1942,
+    "type": "house",
+    "name": "Pinecrest Place",
+    "image": "https://www.bankrate.com/2019/08/23131509/10-tips-for-buying-rental-property.jpeg?auto=webp&optimize=high",
+    "country": "United States",
+    "desc": "Spacious 3-bedroom house with a backyard",
+    "userEmail": "shiv@gmail.com"
+  },
+  {
+    "address": "7490 Susan Trail",
+    "city": "Columbus",
+    "state": "Ohio",
+    "price": 161422.54,
+    "facilities": {
+      "bedrooms": 9,
+      "bathrooms": 4,
+      "gym": 2
+    },
+    "squareFeet": 8221,
+    "yaerBuilt": 1921,
+    "type": "townhouse",
+    "name": "Pinecrest Place",
+    "image": "https://www.bankrate.com/2019/08/23131509/10-tips-for-buying-rental-property.jpeg?auto=webp&optimize=high",
+    "country": "United States",
+    "desc": "Cozy studio apartment in downtown",
+    "userEmail": "shiv@gmail.com"
+  },
+  {
+    "address": "9158 Jackson Terrace",
+    "city": "Saint Louis",
+    "state": "Missouri",
+    "price": 513432.81,
+    "facilities": {
+      "bedrooms": 2,
+      "bathrooms": 4    
+    },
+    "squareFeet": 1899,
+    "yaerBuilt": 1996,
+    "type": "apartment",
+    "name": "Maple Manor",
+    "image": "https://www.bankrate.com/2019/08/23131509/10-tips-for-buying-rental-property.jpeg?auto=webp&optimize=high",
+    "country": "United States",
+    "desc": "Spacious 3-bedroom house with a backyard",
+    "userEmail": "shiv@gmail.com"
+  },
+  {
+    "address": "7 Judy Avenue",
+    "city": "South Lake Tahoe",
+    "state": "California",
+    "price": 5355.96,
+    "facilities": {
+      "bedrooms": 4,
+      "bathrooms": 4
+    },
+    "squareFeet": 8485,
+    "yaerBuilt": 1952,
+    "type": "house",
+    "name": "Willow Grove",
+    "image": "https://propertymaster.in/public/assets/gallery/aboutus/aboutus2.jpg",
+    "country": "United States",
+    "desc": "Cozy studio apartment in downtown",
+    "userEmail": "shiv@gmail.com"
+  },
+  {
+    "address": "62453 Morningstar Lane",
+    "city": "Alhambra",
+    "state": "California",
+    "price": 945635.53,
+    "facilities": {
+      "bedrooms": 5,
+      "bathrooms": 4
+    },
+    "squareFeet": 1315,
+    "yaerBuilt": 1969,
+    "type": "condo",
+    "name": "Willow Grove",
+    "image": "https://propertymaster.in/public/assets/gallery/aboutus/aboutus2.jpg",
+    "country": "United States",
+    "desc": "Cozy studio apartment in downtown",
+    "userEmail": "shiv@gmail.com"
+  },
+  {
+    "address": "962 Merrick Park",
+    "city": "San Diego",
+    "state": "California",
+    "price": 980252.08,
+    "facilities": {
+      "bedrooms": 3,
+      "bathrooms": 4
+    },
+    "squareFeet": 2895,
+    "yaerBuilt": 2012,
+    "type": "house",
+    "name": "Oakwood Estate",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGDXvHC6Ww6j5iQnKclpIlszgc50IbVeJpPf85JsZxta0sFmiqlolwQ-9bGeXcm4loR3Y&usqp=CAU",
+    "country": "United States",
+    "desc": "Cozy studio apartment in downtown",
+    "userEmail": "shiv@gmail.com"
+  },
+  {
+    "address": "2 Scoville Alley",
+    "city": "New York City",
+    "state": "New York",
+    "price": 467476.49,
+    "facilities": {
+      "bedrooms": 5,
+      "bathrooms": 5,
+      "sauna":3
+    },
+    "squareFeet": 8537,
+    "yaerBuilt": 2011,
+    "type": "duplex",
+    "name": "Oakwood Estate",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGDXvHC6Ww6j5iQnKclpIlszgc50IbVeJpPf85JsZxta0sFmiqlolwQ-9bGeXcm4loR3Y&usqp=CAU",
+    "country": "United States",
+    "desc": "Charming bungalow near the beach",
+    "userEmail": "hem@gmail.com"
+  },
+  {
+    "address": "2077 Mcguire Point",
+    "city": "Seattle",
+    "state": "Washington",
+    "price": 68107.26,
+    "facilities": {
+      "bedrooms": 10,
+      "bathrooms": 3
+    },
+    "squareFeet": 9424,
+    "yaerBuilt": 1968,
+    "type": "duplex",
+    "name": "Cedar Ridge",
+    "image": "https://img.freepik.com/photos-premium/maison-moderne-hd-8k-fond-ecran-image-photographique_890746-18423.jpg",
+    "country": "United States",
+    "desc": "Luxurious penthouse with city skyline",
+    "userEmail": "hem@gmail.com"
+  },
+  {
+    "address": "204 Oxford Point",
+    "city": "Austin",
+    "state": "Texas",
+    "price": 311542.53,
+    "facilities": {
+      "bedrooms": 3,
+      "bathrooms": 2
+    },
+    "squareFeet": 2966,
+    "yaerBuilt": 2014,
+    "type": "condo",
+    "name": "Maple Manor",
+    "image": "https://img.freepik.com/photos-premium/maison-moderne-hd-8k-fond-ecran-image-photographique_890746-18423.jpg",
+    "country": "United States",
+    "desc": "Spacious 3-bedroom house with a backyard",
+        "userEmail": "hem@gmail.com"
+
+  },
+  {
+    "address": "7 Karstens Alley",
+    "city": "Pasadena",
+    "state": "Texas",
+    "price": 384253.56,
+    "facilities": {
+      "bedrooms": 5,
+      "bathrooms": 4
+    },
+    "squareFeet": 2752,
+    "yaerBuilt": 1987,
+    "type": "townhouse",
+    "name": "Pinecrest Place",
+    "image": "https://img.freepik.com/photos-premium/maison-moderne-hd-8k-fond-ecran-image-photographique_890746-18423.jpg",
+    "country": "United States",
+    "desc": "Cozy studio apartment in downtown",
+    "userEmail": "hem@gmail.com"
+  },
+  {
+    "address": "3052 Bunker Hill Street",
+    "city": "Pittsburgh",
+    "state": "Pennsylvania",
+    "price": 319565.63,
+    "facilities": {
+      "bedrooms": 9,
+      "bathrooms": 4
+    },
+    "squareFeet": 5646,
+    "yaerBuilt": 2019,
+    "type": "townhouse",
+    "name": "Oakwood Estate",
+    "image": "https://img.freepik.com/photos-premium/maison-moderne-hd-8k-fond-ecran-stock-photographic-image_890746-18418.jpg",
+    "country": "United States",
+    "desc": "Modern 2-story townhouse with a view",
+    "userEmail": "hem@gmail.com"
+  },
+  {
+    "address": "2 Longview Drive",
+    "city": "Lincoln",
+    "state": "Nebraska",
+    "price": 155756.15,
+    "facilities": {
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "clubHouse": 1
+    },
+    "squareFeet": 2938,
+    "yaerBuilt": 1904,
+    "type": "house",
+    "name": "Cedar Ridge",
+    "image": "https://img.freepik.com/photos-premium/maison-moderne-hd-8k-fond-ecran-stock-photographic-image_890746-18418.jpg",
+    "country": "United States",
+    "desc": "Modern 2-story townhouse with a view",
+    "userEmail": "hem@gmail.com"
+  },
+  {
+    "address": "1611 Sunfield Parkway",
+    "city": "New York City",
+    "state": "New York",
+    "price": 451639.42,
+    "facilities": {
+      "bedrooms": 4,
+      "bathrooms": 8
+    },
+    "squareFeet": 2424,
+    "yaerBuilt": 1905,
+    "type": "duplex",
+    "name": "Pinecrest Place",
+    "image": "https://img.freepik.com/premium-photo/real-estate-home-house-property-with-luxury-pool_757538-469.jpg?w=360",
+    "country": "United States",
+    "desc": "Spacious 3-bedroom house with a backyard",
+    "userEmail": "hem@gmail.com"
+  },
+  {
+    "address": "4218 Lawn Avenue",
+    "city": "Flushing",
+    "state": "New York",
+    "price": 252203.74,
+    "facilities": {
+      "bedrooms": 1,
+      "bathrooms": 4,
+      "tennis":1
+    },
+    "squareFeet": 7791,
+    "yaerBuilt": 1950,
+    "type": "duplex",
+    "name": "Oakwood Estate",
+    "image": "https://images.ctfassets.net/0gqf8nju6pz6/3w36aYvCCihRoxvfhd5c32/dd185cb2b5bb97153c6feed640262693/real-estate-asset-classes-hero.jpeg",
+    "country": "United States",
+    "desc": "Spacious 3-bedroom house with a backyard",
+    "userEmail": "hem@gmail.com"
+
+  }
+]

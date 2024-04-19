@@ -1,0 +1,43 @@
+.p-container{
+    width: 100%;
+    position: relative;
+}
+.p-title{
+    margin-bottom: 2rem;
+}
+
+.carousel {
+  padding: 20px 10px;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+}
+.carousel::-webkit-scrollbar {
+  display: none;
+}
+.button {
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  right: 2%;
+}
+.bttn {
+  padding: 10px 20px;
+  border: none;
+  background: #4066ff;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 2;
+  font-size: 18px;
+}
+.bttn:hover {
+  background-color: #2949c6;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}

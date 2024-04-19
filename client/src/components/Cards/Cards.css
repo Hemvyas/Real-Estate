@@ -1,0 +1,44 @@
+.card {
+  gap: 0.6rem;
+  padding: 2rem;
+  min-width: 260px;
+  align-items: center;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.15);
+  margin: 10px;
+  z-index: 0;
+  justify-content: center;
+  transition: all 300ms ease-in;
+  position: relative;
+  background-color: #f9f9f9;
+}
+.card > svg{
+  position: absolute;
+  top: 12%;
+  left: 75%;
+  z-index: 1;
+  color: #fff;
+}
+.card > img {
+  width: 15rem;
+  height: 12rem;
+  border-radius: 5px;
+  object-fit: cover;
+}
+.card > :nth-child(3) {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.card > :nth-child(4) {
+  font-size: 1.5rem;
+}
+.card > :nth-child(5) {
+  font-size: 0.7rem;
+  font-weight: 600;
+}
+.card:hover {
+  cursor: pointer;
+  scale: 1.025;
+ box-shadow: 0px 6px 12px rgba(0,0,0,0.25);
+}
+
