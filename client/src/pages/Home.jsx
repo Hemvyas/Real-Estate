@@ -23,7 +23,7 @@ const Home = () => {
       if (!isAuthenticated) return;
       const token = await getAccessTokenWithPopup({
         authorizationParams: {
-          audience: "https://dev-satxjv8si61r32f1.us.auth0.com/api/v2/",
+          audience: import.meta.env.VITE_APP_AUDIENCE,
           scope: "openid profile email",
         },
       });
