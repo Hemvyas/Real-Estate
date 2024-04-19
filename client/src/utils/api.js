@@ -2,7 +2,9 @@ import axios from "axios";
 import dayjs from "dayjs";
 import { toast } from "react-toastify";
 
-export const api = axios.create({ baseURL: "http://localhost:5000/api" });
+export const api = axios.create({
+  baseURL: "https://real-estate-teal-one.vercel.app/api",
+});
 
 export const getAllProperties = async () => {
   try {
@@ -18,9 +20,12 @@ export const getAllProperties = async () => {
 
 export const getProperty = async (id) => {
   try {
-    const res = await axios.get(`http://localhost:5000/api/property/${id}`, {
-      timeout: 10 * 1000,
-    });
+    const res = await axios.get(
+      `https://real-estate-teal-one.vercel.app/api/property/${id}`,
+      {
+        timeout: 10 * 1000,
+      }
+    );
     return res.data;
   } catch (error) {
     toast.error("Error al obtener las propiedades");
@@ -31,7 +36,7 @@ export const getProperty = async (id) => {
 export const createUser = async (email, token) => {
   try {
     const res = await axios.post(
-      "http://localhost:5000/api/user/register",
+      "https://real-estate-teal-one.vercel.app/api/user/register",
       { email },
       {
         headers: {
@@ -49,7 +54,7 @@ export const createUser = async (email, token) => {
 export const bookVisit = async (propertyId, email, date, token) => {
   try {
     const res = await axios.post(
-      `http://localhost:5000/api/user/bookVisit/${propertyId}`,
+      `https://real-estate-teal-one.vercel.app/api/user/bookVisit/${propertyId}`,
       {
         email: email,
         id: propertyId,
@@ -70,7 +75,7 @@ export const bookVisit = async (propertyId, email, date, token) => {
 export const getAllBooking = async (email) => {
   try {
     const res = await axios.get(
-      `http://localhost:5000/api/user/allBooking?email=${email}`,
+      `https://real-estate-teal-one.vercel.app/api/user/allBooking?email=${email}`,
       {
         timeout: 10 * 1000,
       }
@@ -85,7 +90,7 @@ export const getAllBooking = async (email) => {
 export const cancelBooking = async (email, id, token) => {
   try {
     const res = await axios.put(
-      `http://localhost:5000/api/user/removeBook/${id}`,
+      `https://real-estate-teal-one.vercel.app/api/user/removeBook/${id}`,
       {
         email,
       },
@@ -104,7 +109,7 @@ export const cancelBooking = async (email, id, token) => {
 export const addLike = async (id, token, email) => {
   try {
     const res = await axios.post(
-      `http://localhost:5000/api/user/addFav/${id}`,
+      `https://real-estate-teal-one.vercel.app/api/user/addFav/${id}`,
       {
         email,
       },
@@ -123,7 +128,7 @@ export const addLike = async (id, token, email) => {
 export const getLike = async (email) => {
   try {
     const res = await axios.get(
-      `http://localhost:5000/api/user/allFav?email=${email}`,
+      `https://real-estate-teal-one.vercel.app/api/user/allFav?email=${email}`,
       {
         timeout: 10 * 1000,
       }
@@ -141,12 +146,12 @@ export const getLike = async (email) => {
 export const createResidency = async (data, token) => {
   try {
     const res = await axios.post(
-      `http://localhost:5000/api/property/create`,
+      `https://real-estate-teal-one.vercel.app/api/property/create`,
       data,
       {
-        headers:{
-          Authorization: `Bearer ${token}`
-        }
+        headers: {
+          Authorization: `Bearer ${token}`,
+        },
       }
     );
     console.log(res.data);
