@@ -9,7 +9,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       domain={import.meta.env.VITE_APP_DOMAIN}
       clientId={import.meta.env.VITE_APP_CLIENT_ID}
       authorizationParams={{
-        redirect_uri: "https://real-estate-iota-seven.vercel.app/",
+        redirect_uri: "https://zenithzones.vercel.app/",
       }}
       audience={import.meta.env.VITE_APP_AUDIENCE}
       scope="openid profile email"
