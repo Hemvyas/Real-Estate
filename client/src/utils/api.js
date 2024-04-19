@@ -46,8 +46,9 @@ export const createUser = async (email, token) => {
     );
     return res.data;
   } catch (error) {
-    toast.error("Error al obtener las propiedades");
-    console.log(error);
+    toast.error("Error Signing User");
+    console.error("Error during token acquisition:", error);
+    alert("Failed to login: " + error.message);
   }
 };
 

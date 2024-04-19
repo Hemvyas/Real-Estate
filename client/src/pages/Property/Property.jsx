@@ -46,7 +46,7 @@ const Property = () => {
       mutationFn: () => cancelBooking(user?.email, booking.id, token),
       onSuccess: () => handleBookingCancel(),
       onError: ({ response }) =>
-        toast.error(`Failed to cancel the visit: ${response?.data.message}`),
+        toast.error(`Failed to cancel the visit`),
     });
 
      const [showFullDesc, setShowFullDesc] = useState(false);

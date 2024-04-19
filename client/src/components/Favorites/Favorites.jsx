@@ -21,7 +21,6 @@ const Favorites = () => {
   } = user?.email
     ? useQuery(["favorites", user?.email], () => getLike(user?.email))
     : { data: [], isLoading: false, error: null };
-    console.log(likes);
   useEffect(() => {
     const favorites = async () => {
       if (!likes || likes.length === 0) return;
